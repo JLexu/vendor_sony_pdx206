@@ -1622,6 +1622,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx206/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/sony/pdx206/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
     vendor/sony/pdx206/proprietary/vendor/lib/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libshoebox.so \
+    vendor/sony/pdx206/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
     vendor/sony/pdx206/proprietary/vendor/lib/soundfx/libznrwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libznrwrapper.so \
     vendor/sony/pdx206/proprietary/vendor/lib/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.dolby.hardware.dms@1.0.so \
     vendor/sony/pdx206/proprietary/vendor/lib/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.0.so \
@@ -2193,6 +2194,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx206/proprietary/vendor/lib64/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcreverb.so \
     vendor/sony/pdx206/proprietary/vendor/lib64/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcvirt.so \
     vendor/sony/pdx206/proprietary/vendor/lib64/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libshoebox.so \
+    vendor/sony/pdx206/proprietary/vendor/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswdap.so \
     vendor/sony/pdx206/proprietary/vendor/lib64/unnhal-acc-adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-adreno.so \
     vendor/sony/pdx206/proprietary/vendor/lib64/unnhal-acc-common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-common.so \
     vendor/sony/pdx206/proprietary/vendor/lib64/unnhal-acc-hta.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-hta.so \
@@ -2331,29 +2333,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx206/proprietary/vendor/lib/libstagefrightdolby.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrightdolby.so \
     vendor/sony/pdx206/proprietary/vendor/lib64/libstagefright_soft_ac4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_soft_ac4dec.so \
     vendor/sony/pdx206/proprietary/vendor/lib64/libstagefright_soft_ddpdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_soft_ddpdec.so \
-    vendor/sony/pdx206/proprietary/vendor/lib64/libstagefrightdolby.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrightdolby.so \
-    vendor/sony/pdx206/proprietary/vendor/lib/soundfx/libbundlewrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libbundlewrapper.so \
-    vendor/sony/pdx206/proprietary/vendor/lib64/soundfx/libbundlewrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libbundlewrapper.so \
-    vendor/sony/pdx206/proprietary/vendor/lib/soundfx/libreverbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libreverbwrapper.so \
-    vendor/sony/pdx206/proprietary/vendor/lib64/soundfx/libreverbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libreverbwrapper.so \
-    vendor/sony/pdx206/proprietary/vendor/lib/soundfx/libvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libvisualizer.so \
-    vendor/sony/pdx206/proprietary/vendor/lib64/soundfx/libvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libvisualizer.so \
-    vendor/sony/pdx206/proprietary/vendor/lib/soundfx/libqcomvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcomvisualizer.so \
-    vendor/sony/pdx206/proprietary/vendor/lib64/soundfx/libqcomvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcomvisualizer.so \
-    vendor/sony/pdx206/proprietary/vendor/lib/soundfx/libdownmix.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdownmix.so \
-    vendor/sony/pdx206/proprietary/vendor/lib64/soundfx/libdownmix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdownmix.so \
-    vendor/sony/pdx206/proprietary/vendor/lib/soundfx/libldnhncr.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libldnhncr.so \
-    vendor/sony/pdx206/proprietary/vendor/lib64/soundfx/libldnhncr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libldnhncr.so \
-    vendor/sony/pdx206/proprietary/vendor/lib/soundfx/libdynproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdynproc.so \
-    vendor/sony/pdx206/proprietary/vendor/lib64/soundfx/libdynproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdynproc.so \
-    vendor/sony/pdx206/proprietary/vendor/lib/soundfx/libeffectproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libeffectproxy.so \
-    vendor/sony/pdx206/proprietary/vendor/lib64/soundfx/libeffectproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libeffectproxy.so \
-    vendor/sony/pdx206/proprietary/vendor/lib/soundfx/libqcompostprocbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcompostprocbundle.so \
-    vendor/sony/pdx206/proprietary/vendor/lib64/soundfx/libqcompostprocbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcompostprocbundle.so \
-    vendor/sony/pdx206/proprietary/vendor/lib/soundfx/libqcomvoiceprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcomvoiceprocessing.so \
-    vendor/sony/pdx206/proprietary/vendor/lib64/soundfx/libqcomvoiceprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcomvoiceprocessing.so \
-    vendor/sony/pdx206/proprietary/vendor/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libvolumelistener.so \
-    vendor/sony/pdx206/proprietary/vendor/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libvolumelistener.so
+    vendor/sony/pdx206/proprietary/vendor/lib64/libstagefrightdolby.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrightdolby.so
 
 PRODUCT_PACKAGES += \
     libfastcvopt \
